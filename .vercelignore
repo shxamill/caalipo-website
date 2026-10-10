@@ -1,0 +1,8 @@
+# Only the website itself is deployed.
+brand_assets/
+temporary screenshots/
+CLAUDE.md
+README.md
+serve.mjs
+screenshot.mjs
+.gitignore
