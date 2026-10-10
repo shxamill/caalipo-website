@@ -1,0 +1,14 @@
+# Source brand files and the design reference stay private (not for a public repo)
+brand_assets/
+
+# Visual QA output
+temporary screenshots/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+node_modules/
+.env*

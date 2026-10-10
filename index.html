@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caalipo — Denim bags designed for the outfit</title>
+  <meta name="description" content="Caalipo is a Gen-Z fashion bag brand. Denim bags designed to be part of the outfit, not an afterthought.">
+  <meta name="theme-color" content="#F5F0E8">
+  <meta property="og:title" content="Caalipo — More than a bag. A part of the fit.">
+  <meta property="og:description" content="Denim bags designed for the outfit.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://placehold.co">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Caalipo — back to top">
+        <img class="brand-mark" src="assets/img/caalipo-mark.png" width="256" height="248" alt="">
+        <img class="brand-word" src="assets/img/caalipo-wordmark.png" width="480" height="54" alt="Caalipo">
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="#new-drop">New drop</a></li>
+          <li><a href="#lookbook">Lookbook</a></li>
+          <li><a href="#all-bags">All bags</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" type="button" data-open-search aria-label="Search bags">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" type="button" data-open-cart aria-label="Open cart, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 12H6.2L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </button>
+        <button class="icon-btn menu-btn" type="button" aria-controls="primary-nav" aria-expanded="false" data-menu-toggle aria-label="Open menu">
+          <svg class="i-menu" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="i-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero carousel -->
+    <section class="hero" id="top" aria-roledescription="carousel" aria-label="Caalipo highlights" data-carousel>
+      <div class="hero-slides">
+        <article class="hero-slide is-active" aria-roledescription="slide" aria-label="1 of 3">
+          <img class="hero-media" src="https://placehold.co/1920x1080/1A1A1A/3B3835?font=inter&text=Hero+photo+1%5Cnbag+worn+as+part+of+the+outfit" width="1920" height="1080" alt="" fetchpriority="high">
+          <div class="container hero-copy">
+            <h1 class="hero-title">More than a bag. A part of the fit.</h1>
+            <a class="btn btn-light" href="#new-drop">Shop the new drop</a>
+          </div>
+        </article>
+        <article class="hero-slide" aria-roledescription="slide" aria-label="2 of 3">
+          <img class="hero-media" src="https://placehold.co/1920x1080/1A1A1A/3B3835?font=inter&text=Hero+photo+2%5Cnstreet+styling%2C+on+body" width="1920" height="1080" alt="" loading="lazy">
+          <div class="container hero-copy">
+            <p class="hero-title">Bag is the fit.</p>
+            <a class="btn btn-light" href="#lookbook">See the lookbook</a>
+          </div>
+        </article>
+        <article class="hero-slide" aria-roledescription="slide" aria-label="3 of 3">
+          <img class="hero-media" src="https://placehold.co/1920x1080/1A1A1A/3B3835?font=inter&text=Hero+photo+3%5Cndenim+texture+close-up" width="1920" height="1080" alt="" loading="lazy">
+          <div class="container hero-copy">
+            <p class="hero-title">Design first.</p>
+            <a class="btn btn-light" href="#all-bags">Shop all bags</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="container hero-controls">
+        <button class="round-btn round-btn--ghost" type="button" data-carousel-pause aria-label="Pause slideshow">
+          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg>
+          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg>
+        </button>
+        <button class="round-btn" type="button" data-carousel-prev aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 6-6 6 6 6"/></svg>
+        </button>
+        <button class="round-btn" type="button" data-carousel-next aria-label="Next slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 6 6 6-6 6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Promo cards -->
+    <section class="section section--promos" aria-label="Featured">
+      <div class="container promo-grid">
+        <article class="promo">
+          <img class="promo-media" src="https://placehold.co/800x900/A89F94/BCB4AA?font=inter&text=Lifestyle+photo" width="800" height="900" alt="" loading="lazy">
+          <div class="promo-body">
+            <h2 class="promo-text">Not just a bag. A part of the fit.</h2>
+            <a class="btn btn-dark" href="#new-drop">Shop the new drop</a>
+          </div>
+        </article>
+        <article class="promo">
+          <img class="promo-media" src="https://placehold.co/800x900/1B3A5C/35546F?font=inter&text=Product+photo" width="800" height="900" alt="" loading="lazy">
+          <div class="promo-body">
+            <h2 class="promo-text">Denim bags designed for the outfit.</h2>
+            <a class="btn btn-dark" href="#all-bags">Shop all bags</a>
+          </div>
+        </article>
+        <article class="promo promo--title">
+          <img class="promo-media" src="https://placehold.co/800x900/1A1A1A/3B3835?font=inter&text=Street+styling+photo" width="800" height="900" alt="" loading="lazy">
+          <div class="promo-body">
+            <h2 class="promo-display">Design first.</h2>
+            <a class="btn btn-white" href="#lookbook">See the lookbook</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- New drop -->
+    <section class="section" id="new-drop" aria-labelledby="new-drop-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title" id="new-drop-title">The new drop</h2>
+          <p class="section-lede">Bags made to sit inside the outfit, not outside it. Designed with a fashion-first mindset.</p>
+        </header>
+        <ul class="product-grid" data-product-list="new" role="list"></ul>
+        <div class="section-foot">
+          <a class="btn btn-outline" href="#all-bags">See all bags</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lookbook -->
+    <section class="section" id="lookbook" aria-labelledby="lookbook-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title" id="lookbook-title">Show the bag in the world</h2>
+          <p class="section-lede">On body, up close and in the making. Every Caalipo bag is shown as part of the look.</p>
+        </header>
+
+        <div class="bento">
+          <article class="tile tile--tall">
+            <img class="tile-media" src="https://placehold.co/1000x1400/A89F94/BCB4AA?font=inter&text=Lifestyle%5CnGen-Z+styling%2C+bag+worn+on+body" width="1000" height="1400" alt="" loading="lazy">
+            <div class="tile-body">
+              <h3 class="tile-title">Lifestyle</h3>
+              <a class="btn btn-white" href="#new-drop">Shop the look</a>
+            </div>
+          </article>
+          <article class="tile">
+            <img class="tile-media" src="https://placehold.co/1000x680/1B3A5C/35546F?font=inter&text=Material%5Cndenim+texture+and+stitching" width="1000" height="680" alt="" loading="lazy">
+            <div class="tile-body tile-body--top">
+              <h3 class="tile-title">Material</h3>
+              <a class="btn btn-white" href="#all-bags">See all bags</a>
+            </div>
+          </article>
+          <article class="tile">
+            <img class="tile-media" src="https://placehold.co/1000x680/A89F94/BCB4AA?font=inter&text=Product%5Cnclean+bag+photography" width="1000" height="680" alt="" loading="lazy">
+            <div class="tile-body tile-body--top">
+              <h3 class="tile-title">Product</h3>
+              <a class="btn btn-white" href="#new-drop">See the new drop</a>
+            </div>
+          </article>
+
+          <!-- Video placeholder: replace the poster and add a <video> once the craft film exists -->
+          <figure class="tile tile--wide video-placeholder">
+            <img class="tile-media" src="https://placehold.co/1920x640/1A1A1A/3B3835?font=inter&text=Craft+video+poster%5Cnhands+at+work%2C+sewing%2C+production" width="1920" height="640" alt="" loading="lazy">
+            <figcaption class="tile-body">
+              <span class="video-badge">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg>
+                Video coming soon
+              </span>
+              <span class="tile-title">The making</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- All bags -->
+    <section class="section" id="all-bags" aria-labelledby="all-bags-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title" id="all-bags-title">All bags</h2>
+          <p class="section-lede">Distinctive, design-led bags. Each one is made to complete a look, not simply complement it.</p>
+        </header>
+        <ul class="product-grid" id="all-bags-list" data-product-list="all" role="list"></ul>
+        <div class="section-foot">
+          <button class="btn btn-outline" type="button" data-show-more aria-controls="all-bags-list">Show more bags</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA banner -->
+    <section class="section section--cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta">
+          <img class="cta-media" src="https://placehold.co/1920x760/1A1A1A/3B3835?font=inter&text=Banner+photo%5Cnbag+held+against+a+denim+outfit" width="1920" height="760" alt="" loading="lazy">
+          <div class="cta-body">
+            <h2 class="cta-title" id="cta-title">Part of the outfit, always.</h2>
+            <a class="btn btn-light" href="#new-drop">Shop the new drop</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand--footer">
+          <img class="brand-mark" src="assets/img/caalipo-mark.png" width="256" height="248" alt="" loading="lazy">
+          <img class="brand-word" src="assets/img/caalipo-wordmark.png" width="480" height="54" alt="Caalipo" loading="lazy">
+        </div>
+        <p>Caalipo is a Gen-Z fashion bag brand built around one idea: the bag belongs inside the outfit, not outside it.</p>
+
+        <form class="newsletter" data-newsletter novalidate>
+          <label class="newsletter-label" for="newsletter-email">Hear about new drops</label>
+          <div class="newsletter-field">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="6" width="17" height="12" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+            <input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Your email address" required aria-describedby="newsletter-msg">
+            <button class="btn btn-light btn-sm" type="submit">Subscribe</button>
+          </div>
+          <p class="newsletter-msg" id="newsletter-msg" role="status"></p>
+        </form>
+      </div>
+
+      <nav class="footer-col" aria-labelledby="footer-shop">
+        <h2 class="footer-heading" id="footer-shop">Shop</h2>
+        <ul>
+          <li><a href="#new-drop">New drop</a></li>
+          <li><a href="#lookbook">Lookbook</a></li>
+          <li><a href="#all-bags">All bags</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2 class="footer-heading">Shipping</h2>
+        <ul>
+          <li>Worldwide shipping</li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Caalipo</p>
+        <ul class="social" aria-label="Social">
+          <li><a class="pill" href="https://www.instagram.com/caalipobags/" rel="noopener" target="_blank">Instagram<span class="visually-hidden"> (@caalipobags, opens in a new tab)</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <img class="footer-watermark" src="assets/img/caalipo-mark.png" width="256" height="248" alt="" aria-hidden="true" loading="lazy">
+  </footer>
+
+  <!-- Cart drawer -->
+  <dialog class="drawer" data-cart aria-labelledby="cart-title">
+    <div class="drawer-inner">
+      <header class="drawer-head">
+        <h2 id="cart-title">Your cart</h2>
+        <button class="icon-btn" type="button" data-close-dialog aria-label="Close cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </header>
+      <ul class="cart-items" data-cart-items role="list"></ul>
+      <p class="cart-empty" data-cart-empty>Your cart is empty. Add a bag from the new drop to get started.</p>
+      <footer class="drawer-foot" data-cart-foot>
+        <div class="cart-total"><span>Subtotal</span><span data-cart-subtotal>—</span></div>
+        <button class="btn btn-dark btn-block" type="button" data-checkout>Check out</button>
+        <p class="cart-note" data-checkout-msg role="status"></p>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- Search -->
+  <dialog class="search" data-search aria-labelledby="search-title">
+    <div class="search-inner">
+      <div class="search-head">
+        <h2 id="search-title" class="visually-hidden">Search bags</h2>
+        <label class="visually-hidden" for="search-input">Search bags</label>
+        <input id="search-input" type="search" placeholder="Search bags" autocomplete="off" data-search-input>
+        <button class="icon-btn" type="button" data-close-dialog aria-label="Close search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <ul class="search-results" data-search-results role="list"></ul>
+      <p class="search-status" data-search-status role="status"></p>
+    </div>
+  </dialog>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+</body>
+</html>
