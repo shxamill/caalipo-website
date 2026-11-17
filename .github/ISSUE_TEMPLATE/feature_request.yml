@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a storefront improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What customer or business need does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: External services or legal requirements
+      description: Note whether checkout, newsletter, privacy, shipping, or other integrations are involved.
+    validations:
+      required: false
