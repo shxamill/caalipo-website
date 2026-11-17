@@ -1,5 +1,7 @@
 # Caalipo website
 
+[![CI](https://github.com/shxamill/caalipo-website/actions/workflows/ci.yml/badge.svg)](https://github.com/shxamill/caalipo-website/actions/workflows/ci.yml) [![License: All rights reserved](https://img.shields.io/badge/License-All%20rights%20reserved-lightgrey.svg)](LICENSE) [![Live site](https://img.shields.io/badge/Live-caalipo--website.vercel.app-black?logo=vercel)](https://caalipo-website.vercel.app)
+
 Static storefront home page for Caalipo (Gen-Z fashion bags). Plain HTML, CSS and JavaScript modules, with no build step and no application dependencies.
 
 ## Run locally
@@ -52,4 +54,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CODE_OF_CON
 
 ## License and asset rights
 
-No repository-level open-source license is currently provided. Brand marks, product photographs, fonts, and other creative assets may have separate rights. Do not assume public availability grants permission to reuse them.
+All rights reserved. The code is public for portfolio viewing only and is not open source; see [LICENSE](LICENSE). The Caalipo name, logo, product photographs and other brand assets belong to Caalipo and may not be reused.
